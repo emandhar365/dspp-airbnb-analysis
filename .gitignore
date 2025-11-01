@@ -1,0 +1,2 @@
+# Ignore large Airbnb data files
+data/bronze/*
