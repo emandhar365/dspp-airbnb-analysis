@@ -1,6 +1,6 @@
 # DSPP Airbnb Analysis 🏡
 
-This project showcases a full-stack data science pipeline built for the DSPP apprenticeship module. It ingests raw Airbnb data, processes it through a medallion-style architecture (Bronze → Silver → Gold), and delivers actionable insights via clustering, feature engineering, and stakeholder-ready visuals.
+This project showcases a data science pipeline built for the DSPP apprenticeship module. It ingests raw Airbnb data, processes it through a medallion-style architecture (Bronze → Silver → Gold), and delivers actionable insights via clustering, feature engineering, and stakeholder-ready visuals.
 
 ---
 
@@ -15,7 +15,20 @@ This project showcases a full-stack data science pipeline built for the DSPP app
 ---
 
 ## 📁 Project Structure
-├── data/ │   ├── bronze/         # Raw data (excluded from repo) │   ├── silver/         # Cleaned datasets │   └── gold/           # Final features and outputs ├── notebooks/ │   ├── bronze_ingestion.ipynb │   ├── silver_prep.ipynb │   ├── silver_pre_goldchecks.ipynb │   ├── gold_prep.ipynb │   ├── gold_visuals.ipynb │   ├── ML_prep.ipynb │   └── ML_GMM.ipynb ├── src/                # Modular Python scripts (optional) └── README.md
+├── data/ │
+    ├── bronze/                    |# Raw data (excluded from repo)
+    ├── silver/                    |# Cleaned datasets 
+    └── gold/                      |# Final features and outputs 
+├── notebooks/ 
+    ├── bronze_ingestion.ipynb     |# Notebook producing Bronze layer data store
+    ├── silver_prep.ipynb          |# Notebook prodicing Silver layer tables
+    ├── silver_pre_goldchecks.ipynb|# QA Checks
+    ├── gold_prep.ipynb            │# Notebook producing main Gold Tables
+    ├── gold_visuals.ipynb         │# EDA visuals on GOld
+    ├── ML_prep.ipynb              │# Feature Engineering for ML Clustering
+    └── ML_GMM.ipynb               │# ML Clustering 
+
+└── README.md
 
 
 
@@ -34,7 +47,6 @@ This project showcases a full-stack data science pipeline built for the DSPP app
 This pipeline supports:
 - Host segmentation for targeted incentives
 - Neighborhood-level investment insights
-- Seasonal pricing strategies based on calendar trends
 
 ---
 
@@ -51,7 +63,7 @@ This pipeline supports:
 
 - Built as part of the DSPP apprenticeship program
 - Raw data sourced from [Inside Airbnb](http://insideairbnb.com/)
-- All code is modular and documented for reproducibility
+- All code is documented for reproducibility
 
 ---
 
