@@ -38,7 +38,7 @@ This project showcases a data science pipeline built for the DSPP apprenticeship
 
 - **Clustering**: Gaussian Mixture Models to segment listings
 
-![PCA clusters](screenshots\pca_clusters.png)
+![PCA clusters](screenshots/pca_clusters.png)
 
 ![UMAP clusters](screenshots/umpa_clusters.png)
 
@@ -58,7 +58,7 @@ This pipeline supports:
 - Host segmentation for targeted incentives
 - Neighborhood-level investment insights
 
-![Exec Summary](screenshots/execsummary.png)
+![Exec Summary](screenshots/ExecSummary.png)
 
 
 ---
