@@ -27,7 +27,7 @@ This project showcases a data science pipeline built for the DSPP apprenticeship
     ├── gold_visuals.ipynb         │# EDA visuals on GOld
     ├── ML_prep.ipynb              │# Feature Engineering for ML Clustering
     └── ML_GMM.ipynb               │# ML Clustering 
-
+├── screenshots/                   │# For use in project
 └── README.md
 
 
@@ -37,8 +37,18 @@ This project showcases a data science pipeline built for the DSPP apprenticeship
 ## 📊 Key Outputs
 
 - **Clustering**: Gaussian Mixture Models to segment listings
+
+![PCA clusters](screenshots\pca_clusters.png)
+
+![UMAP clusters](screenshots/umpa_clusters.png)
+
+
 - **Feature Engineering**: Host performance, room type breakdown, time series trends
+
 - **Visuals**: Power BI dashboards and Python plots for stakeholder presentation
+
+![PowerBI Dashboard](screenshots/powerbi.png)
+
 
 ---
 
@@ -47,6 +57,9 @@ This project showcases a data science pipeline built for the DSPP apprenticeship
 This pipeline supports:
 - Host segmentation for targeted incentives
 - Neighborhood-level investment insights
+
+![Exec Summary](screenshots/execsummary.png)
+
 
 ---
 
